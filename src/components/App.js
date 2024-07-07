@@ -11,8 +11,7 @@ const [selectedOption,setselectedOption]=useState('');
       <h1>Parent Component</h1>
       <ChildComponent1 select={setselectedOption} />
       <ChildComponent2 select={setselectedOption} />
-      
-     Selected Option: {selectedOption}
+      <p>Selected Option: {selectedOption}</p>
         {/* Do not remove the main div */}
     </div>
   )
